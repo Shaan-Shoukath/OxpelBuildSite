@@ -39,54 +39,65 @@ body {
   background-image: url(background.jpg);
 }
 
-.box{
+.box {
   max-width: 400px;
   width: 100%;
 }
-.box .search-box{
+
+.box .search-box {
   position: relative;
   height: 50px;
   max-width: 50px;
   margin: auto;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
-  transition: all 0.3s ease;
+  transition: max-width 0.3s ease; /* Smooth transition for width */
+  overflow: hidden; /* Prevents content from overflowing */
 }
-#check:checked ~ .search-box{
-  max-width: 380px;
+
+#check:checked ~ .search-box {
+  max-width: 380px; /* Expands when checked */
 }
-.search-box input{
- position: absolute;
- height: 100%;
- width: 100%;
- border-radius: 25px;
- background: #fff;
- outline: none;
- border: none;
- padding-left: 20px;
- font-size: 18px;
-}
-.search-box .icon{
+
+.search-box input {
   position: absolute;
-  right: -2px;
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  background: #fff;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  font-size: 18px;
+  z-index: 1; /* Ensures the input is above other elements */
+}
+
+.search-box .icon {
+  position: absolute;
+  right: 0; /* Align the icon to the right */
   top: 0;
   width: 50px;
-  background: #FFF;
   height: 100%;
   text-align: center;
   line-height: 50px;
+  background: #ffffff;
   color: #FF676D;
   font-size: 20px;
   border-radius: 25px;
+  transition: all 0.3s ease;
+  z-index: 2; /* Ensures the icon stays above other elements */
+  cursor: pointer; /* Makes the icon clickable */
 }
-#check:checked ~ .search-box .icon{
-  background: #FF676D;
+
+#check:checked ~ .search-box .icon {
+  background: #000679;
   color: #FFF;
-  width: 60px;
-  border-radius: 0 25px 25px 0;
+  width: 60px; /* Expands slightly on check */
+  border-radius: 0 25px 25px 0; /* Rounded corner on the left */
 }
-#check{
-  display: none;
+
+#check {
+  display: none; /* Hide the checkbox */
 }
 
 .logo {
