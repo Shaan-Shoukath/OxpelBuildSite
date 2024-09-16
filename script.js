@@ -17,8 +17,13 @@ document.addEventListener("DOMContentLoaded", () => {
       scrollToTopBtn.style.display = "block";
     } else {
       scrollToTopBtn.style.display = "none";
-    }
+    } 
   }
+
+  scrollToTopBtn.addEventListener('click', () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    });
 
   // List of products (you can expand this list or fetch it dynamically)
   const products = [
