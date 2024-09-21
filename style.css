@@ -226,6 +226,7 @@ body {
 .remove-from-cart {
   padding: 5px 10px;
   font-size: small;
+  background-color: #004c75;
 }
 
 .logo {
