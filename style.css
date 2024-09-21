@@ -261,7 +261,10 @@ font-size: medium;
   src: url(Poppins-Bold.ttf);
 }
 
-
+@font-face {
+  font-family: NumberFont;
+  src: url(VintageMineone.ttf);
+}
 
 h1 {
   font-family: myFirstFont;
@@ -276,6 +279,10 @@ h1 {
 
 h3 {
   font-family: ProductFont;
+}
+
+p {
+  font-family: NumberFont;
 }
 
 .slogan {
