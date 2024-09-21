@@ -224,13 +224,25 @@ body {
 }
 
 .remove-from-cart {
+  width: 40px;
+  height: 40px;
   padding: 5px 10px;
   font-size: small;
-  background-color: #004c75;
+  background-color: transparent;
+}
+
+.remove-from-cart i{
+margin-top: 6px;
+color: #000000;
+font-size: medium;
 }
 
 .remove-from-cart:hover {
-  background-color: #9d0808; /* Background color on hover */
+  background-color: #bc1010;/* Background color on hover */
+}
+
+.remove-from-cart:hover i {
+  color: #ffffff;
 }
 
 .logo {
@@ -243,6 +255,8 @@ body {
   font-family: myFirstFont;
   src: url(SUSE-VariableFont_wght.ttf);
 }
+
+
 
 h1 {
   font-family: myFirstFont;

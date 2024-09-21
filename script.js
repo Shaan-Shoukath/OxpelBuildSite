@@ -170,7 +170,9 @@ document.addEventListener("DOMContentLoaded", () => {
           <img src="${product.image}" alt="${product.title}">
           <h4>${product.title}</h4>
           <p>${product.price}</p>
-          <button class="remove-from-cart" data-index="${index}">Remove</button>
+          <button class="remove-from-cart" data-index="${index}">
+          <i class="fa-solid fa-trash-can"></i> <!-- Add trash can icon -->
+        </button>
         `;
         cartItemsContainer.appendChild(cartItem);
         totalPrice += product.price;
