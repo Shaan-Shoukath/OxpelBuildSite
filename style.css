@@ -256,6 +256,11 @@ font-size: medium;
   src: url(SUSE-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: ProductFont;
+  src: url(Poppins-Bold.ttf);
+}
+
 
 
 h1 {
@@ -267,6 +272,10 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h3 {
+  font-family: ProductFont;
 }
 
 .slogan {
