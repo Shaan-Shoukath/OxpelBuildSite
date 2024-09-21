@@ -241,8 +241,8 @@ font-size: medium;
   background-color: #bc1010;/* Background color on hover */
 }
 
-.remove-from-cart:hover i {
-  color: #ffffff;
+.remove-from-cart:hover i{
+  color: white;
 }
 
 .logo {
