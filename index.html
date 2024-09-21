@@ -14,16 +14,40 @@
 
   <body>
     <header>
-      <div class="container1">
+      <div class="container">
         <div class="wrapper">
-          <div class="search-bar">
-            <input
-              class="search-bar input"
-              type="text"
-              placeholder="Search for products..."
-            />
-            <button class="search-bar button">
-              <i class="fas fa-search"></i>
+          <div class="row">
+            <div class="wrapper-buttons">
+              <a
+                href="https://googlemap.com"
+                class="location-button"
+                title="Location"
+              >
+                <i class="fas fa-map-marker-alt"></i
+              ></a>
+              <button class="cart-button" title="Cart">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+            </div>
+            <div class="search-bar">
+              <input
+                class="search-bar input"
+                type="text"
+                placeholder="Search for products..."
+              />
+              <button class="search-bar button">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+          <div class="cart-section hidden">
+            <h3>Your Cart</h3>
+            <div class="cart-items">
+              <p>No Items in Cart</p>
+            </div>
+            <h4 id="total-price">Total : $0</h4>
+            <button id="buy-now-button" href="#" onclick="redirectToWhatsApp()">
+              Buy Now
             </button>
           </div>
           <div class="product-suggestions hidden"></div>
@@ -48,16 +72,36 @@
           <img src="OXPEL PURE (UV + UF).png" alt="OXPEL PURE (UV + UF)" />
           <h3>OXPEL PURE (UV + UF)</h3>
           <p>10,999</p>
+          <div class="product-details">
+            <p>Specs: UV+UF,7L Capacity,1 Year Warranty</p>
+            <p>5 Stage Filtration</p>
+            <ul>
+              <li>Inline Sediment Filter</li>
+              <li>Pre-Carbon Filter</li>
+              <li>Ultra Filtration</li>
+              <li>Ultraviolet Filter</li>
+              <li>Pre Filter</li>
+              <li>09 L Tank Capacity</li>
+            </ul>
+            <h3>Price : 10,999</h3>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
         </div>
         <div class="product-card">
           <img src="OXPEL PURE (UV + UF).png" alt="OXPEL PURE (UV + UF)" />
           <h3>OXPEL PURE (UV + UF)</h3>
           <p>10,999</p>
+          <div class="product-details">
+            <p>Specs: UV+UF,7L Capacity,1 Year Warranty</p>
+          </div>
         </div>
         <div class="product-card">
           <img src="OXPEL PURE (UV + UF).png" alt="OXPEL PURE (UV + UF)" />
           <h3>OXPEL PURE (UV + UF)</h3>
           <p>10,999</p>
+          <div class="product-details">
+            <p>Specs: UV+UF,7L Capacity,1 Year Warranty</p>
+          </div>
         </div>
         <div class="product-card">
           <img src="OXPEL PURE (UV + UF).png" alt="OXPEL PURE (UV + UF)" />
@@ -127,7 +171,7 @@
       </div>
     </section>
 
-    <div class="float-buttons">
+    <section class="float-buttons">
       <a
         href="https://wa.me/1234567890"
         target="_blank"
@@ -143,10 +187,11 @@
       >
         <i class="fas fa-phone-alt"></i>
       </a>
-    </div>
+      <button id="scrollToTopBtn" title="Go to top">↑</button>
+    </section>
 
-    <button id="scrollToTopBtn" title="Go to top">↑</button>
-
-    <footer><p>&copy; 2024 OXPEL. All rights reserved.</p></footer>
+    <footer>
+      <p>&copy; 2024 OXPEL. All rights reserved.</p>
+    </footer>
   </body>
 </html>
