@@ -263,7 +263,7 @@ font-size: medium;
 
 @font-face {
   font-family: NumberFont;
-  src: url(VintageMineone.ttf);
+  src: url(Antheroma-Bold.ttf);
 }
 
 h1 {
@@ -283,7 +283,7 @@ h3 {
 
 p {
   font-family: NumberFont;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .slogan {
