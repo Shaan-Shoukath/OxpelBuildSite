@@ -229,6 +229,10 @@ body {
   background-color: #004c75;
 }
 
+.remove-from-cart:hover {
+  background-color: #9d0808; /* Background color on hover */
+}
+
 .logo {
   padding-top: 90px;
   height: 170px;
