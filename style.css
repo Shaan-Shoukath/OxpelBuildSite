@@ -266,6 +266,11 @@ font-size: medium;
   src: url(Antheroma-Bold.ttf);
 }
 
+@font-face {
+  font-family: ListFont;
+  src: url(Roboto-Bold.ttf);
+}
+
 h1 {
   font-family: myFirstFont;
   src: url(SUSE-VariableFont_wght.ttf);
@@ -284,6 +289,11 @@ h3 {
 p {
   font-family: NumberFont;
   font-weight: bolder;
+}
+
+li {
+  font-family: ListFont;
+  margin-bottom: 4px;
 }
 
 .slogan {
@@ -406,7 +416,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  gap: 5rem;
+  gap: 7rem;
   margin-top: 20px;
 }
 
