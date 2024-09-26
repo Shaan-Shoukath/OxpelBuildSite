@@ -460,6 +460,7 @@ button {
 .product-details {
   display: none;
   text-align: left;
+  align-items: center;
   width: 18rem;
   padding: 20px;
   border-radius: 10px;
@@ -475,6 +476,12 @@ button {
   transform: translateY(-50%);
   z-index: 1000;
   width: 13rem;
+}
+
+.add-to-cart {
+  background-color: transparent;
+  color: black;
+  font-size: medium;
 }
 
 .product-card.expanded .product-details {
@@ -496,6 +503,12 @@ button {
 .blurred {
   filter: blur(5px);
   transition: filter 0.3s ease;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
 }
 
 .body.expanded {
@@ -581,7 +594,7 @@ footer {
 @media (max-width: 768px) {
 }
 /*Responsive for smaller phones*/
-@media (max-width: 375px) and (max-width: 414px) {
+@media (min-width: 375px) and (max-width: 414px) {
   .container {
     padding-top: 1.5rem;
     padding-bottom: 1rem;
