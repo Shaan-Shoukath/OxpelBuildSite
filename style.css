@@ -615,7 +615,7 @@ footer {
   }
 
   .slogan h1 {
-    font-size: large;
+    font-size: x-large;
   }
 
   .product-grid {
@@ -626,6 +626,9 @@ footer {
   }
   .product-card h3 {
     font-size: small;
+  }
+  .banner img {
+    width: 70%;
   }
 }
 /*Responsive Code for Medium phones*/
