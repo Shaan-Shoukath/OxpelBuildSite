@@ -630,6 +630,17 @@ footer {
   .banner img {
     width: 70%;
   }
+  .product-card.expanded {
+    left: 5rem;
+    top: 20%;
+  }
+  .product-details {
+    top: 50%;
+  }
+  .product-card.expanded .product-details {
+    left: 5px;
+    right: 10rem;
+  }
 }
 /*Responsive Code for Medium phones*/
 @media (min-width: 376px) and(max-width:414px) {
