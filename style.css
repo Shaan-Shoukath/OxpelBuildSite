@@ -579,12 +579,15 @@ footer {
 /*Responsive Code for Small Devices*/
 
 @media (max-width: 768px) {
+}
+/*Responsive for smaller phones*/
+@media (max-width: 375px) and (max-width: 414px) {
   .container {
     padding-top: 1.5rem;
     padding-bottom: 1rem;
     padding-left: 0.8rem;
     padding-right: 0.8rem;
-    height: 70vh;
+    height: 80vh;
   }
   .search-bar input.visible {
     width: 135px;
@@ -612,13 +615,13 @@ footer {
     font-size: small;
   }
 }
-
-/*Responsive Code for Medium Devices*/
-
-@media (min-width: 769px) and(max-width:1024px) {
+/*Responsive Code for Medium phones*/
+@media (min-width: 376px) and(max-width:414px) {
 }
 
-/*Responsive Code for Larger Devices*/
+/*Responsive Code for Larger phones*/
 
-@media (min-width: 1025px) {
+@media (min-width: 415px) and(max-width:600px) {
 }
+
+/**/
