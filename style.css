@@ -480,8 +480,9 @@ button {
 }
 
 .add-to-cart {
-  background-color: transparent;
-  color: #000000;
+  background-color: rgb(26, 57, 194);
+  box-shadow: 1px #11b4ff;
+  color: #ffffff;
   border-radius: 50%;
   font-size: large;
 }
@@ -596,24 +597,34 @@ footer {
   .container {
     padding-top: 1.5rem;
     padding-bottom: 1rem;
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
     height: 100vh;
   }
   .search-bar input.visible {
-    width: 135px;
+    width: 110px;
   }
 
   .product-suggestions {
     right: 30px;
   }
 
+  .logo {
+    padding-top: 80px;
+  }
+
   .logo img {
     width: 80%;
+  }
+  .slogan {
+    padding-top: 70px;
+    padding-bottom: 0;
   }
 
   .slogan h1 {
     font-size: x-large;
+    padding-top: 0px;
+    margin-top: 0px;
   }
 
   .product-grid {
@@ -642,6 +653,9 @@ footer {
     overflow-y: hidden;
     overflow-x: hidden;
   }
+  .product-card.expanded img {
+    width: 30%;
+  }
 
   .product-card.expanded .product-details {
     position: relative;
@@ -665,11 +679,11 @@ footer {
     height: 80vh;
   }
   .search-bar input.visible {
-    width: 135px;
+    width: 130px;
   }
 
   .product-suggestions {
-    right: 30px;
+    right: 20px;
   }
 
   .logo img {
@@ -688,6 +702,9 @@ footer {
   }
   .product-card h3 {
     font-size: small;
+  }
+  .product-card img {
+    width: 40%;
   }
   .banner img {
     width: 100%;
@@ -750,6 +767,9 @@ footer {
   }
   .product-card h3 {
     font-size: small;
+  }
+  .product-card img {
+    width: 40%;
   }
   .banner img {
     width: 100%;
