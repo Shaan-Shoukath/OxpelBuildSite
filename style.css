@@ -12,7 +12,7 @@ body {
 
 /* Full-screen containers with background images */
 .container {
-  height: 100vh; /* Full viewport height */
+  height: 110vh; /* Full viewport height */
   width: auto; /* Full viewport width */
   background-size: cover; /* Ensure background covers full area */
   background-position: center; /* Center the background image */
@@ -418,7 +418,7 @@ button {
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 7rem;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .product-card {
@@ -481,8 +481,9 @@ button {
 
 .add-to-cart {
   background-color: transparent;
-  color: black;
-  font-size: medium;
+  color: #000000;
+  border-radius: 50%;
+  font-size: large;
 }
 
 .product-card.expanded .product-details {
@@ -590,12 +591,12 @@ footer {
   padding: 2rem;
 }
 
-/*Responsive Code for Small Devices*/
-
-@media (max-width: 768px) {
-}
 /*Responsive for smaller phones*/
-@media (min-width: 375px) and (max-width: 414px) {
+@media (max-width: 375px) {
+}
+
+/*Responsive Code for Medium phones*/
+@media (min-width: 376px) and (max-width: 414px) {
   .container {
     padding-top: 1.5rem;
     padding-bottom: 1rem;
@@ -651,16 +652,74 @@ footer {
     left: -17px;
     gap: 10rem;
     margin: 1rem;
+    background-color: rgb(161, 175, 255);
   }
-}
-/*Responsive Code for Medium phones*/
-@media (min-width: 376px) and(max-width:414px) {
 }
 
 /*Responsive Code for Larger phones*/
 
-@media (min-width: 415px) and(max-width:600px) {
-}  /**/
+@media (min-width: 415px) and (max-width: 600px) {
+  .container {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    height: 80vh;
+  }
+  .search-bar input.visible {
+    width: 135px;
+  }
+
+  .product-suggestions {
+    right: 30px;
+  }
+
+  .logo img {
+    width: 80%;
+  }
+
+  .slogan h1 {
+    font-size: x-large;
+  }
+
+  .product-grid {
+    gap: 1rem;
+  }
+  .product-card {
+    width: 40vw;
+  }
+  .product-card h3 {
+    font-size: small;
+  }
+  .banner img {
+    width: 100%;
+  }
+
+  .product-card.expanded {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    width: 20rem;
+    max-height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .product-card.expanded .product-details {
+    position: relative;
+    height: auto;
+    box-sizing: border-box;
+    top: 100%;
+    left: -17px;
+    gap: 10rem;
+    margin: 1rem;
+    background-color: rgb(161, 175, 255);
+    box-shadow: 0px 0px 30px 2px #071c78;
+  }
+}
+
+/*Responsive for 1920 displays*/
 @media (min-width: 1000px) and (max-width: 4000px) {
   .wrapper {
     height: 46rem;
@@ -691,4 +750,3 @@ footer {
     transform: translate(-0%, -10%);
   }
 }
-
