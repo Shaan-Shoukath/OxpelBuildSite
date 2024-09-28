@@ -660,5 +660,35 @@ footer {
 /*Responsive Code for Larger phones*/
 
 @media (min-width: 415px) and(max-width:600px) {
+  /**/
+  @media (min-width: 1000px) and (max-width: 4000px) {
+    .wrapper {
+      height: 46rem;
+    }
+
+    .container {
+      height: 100vh;
+    }
+
+    .slogan {
+      padding-bottom: 3rem;
+      font-size: larger;
+    }
+    .banner img {
+      height: auto;
+      width: 680px;
+    }
+
+    .product-card.expanded {
+      top: 50%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+    }
+
+    .product-details {
+      top: 50%;
+      right: 50%;
+      transform: translate(-0%, -10%);
+    }
+  }
 }
-/**/
