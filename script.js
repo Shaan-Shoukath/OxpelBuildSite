@@ -205,7 +205,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Redirecting to WhatsApp
   function redirectToWhatsApp() {
-    const phoneNumber = "9061553544"; // Replace with a valid phone number
+    const phoneNumber = "9605303244"; // Replace with a valid phone number
     const items = cart.map((product) => product.title).join(", "); // Join product titles into a string
     const message = `Hi, I am interested in the following items: ${items}`;
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
