@@ -637,7 +637,7 @@ footer {
     font-size: small;
   }
   .product-card img {
-    width: 50%;
+    width: 60%;
   }
   .banner img {
     width: 100%;
@@ -685,6 +685,23 @@ footer {
   .product-suggestions {
     right: 20px;
   }
+  .cart-section {
+    left: 1px;
+    width: calc(100%-2px);
+    max-width: 24rem;
+  }
+  .cart-section h3 {
+    font-size: x-large;
+  }
+  .cart-section h4 {
+    font-size: medium;
+  }
+  .cart-section p {
+    font-size: large;
+  }
+  #total-price h4 {
+    font-size: small;
+  }
 
   .logo img {
     width: 80%;
@@ -704,10 +721,13 @@ footer {
     font-size: small;
   }
   .product-card img {
-    width: 40%;
+    width: 70%;
   }
   .banner img {
     width: 100%;
+  }
+  .product-card.expanded img {
+    width: 40%;
   }
 
   .product-card.expanded {
@@ -769,10 +789,13 @@ footer {
     font-size: small;
   }
   .product-card img {
-    width: 40%;
+    width: 70%;
   }
   .banner img {
     width: 100%;
+  }
+  .product-card.expanded img {
+    width: 40%;
   }
 
   .product-card.expanded {
