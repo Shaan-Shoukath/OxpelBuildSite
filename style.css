@@ -230,6 +230,7 @@ body {
   padding: 5px 10px;
   font-size: small;
   background-color: transparent;
+  border-radius: 50%;
 }
 
 .remove-from-cart i {
@@ -692,6 +693,9 @@ footer {
     margin: 1rem;
     background-color: rgb(161, 175, 255);
   }
+  .product-details p {
+    font-size: medium;
+  }
 }
 
 /*Responsive Code for Medium phones*/
@@ -782,6 +786,9 @@ footer {
     gap: 10rem;
     margin: 1rem;
     background-color: rgb(161, 175, 255);
+  }
+  .product-details p {
+    font-size: medium;
   }
 }
 
@@ -876,6 +883,9 @@ footer {
     margin: 1rem;
     background-color: rgb(161, 175, 255);
     box-shadow: 0px 0px 30px 2px #071c78;
+  }
+  .product-details p {
+    font-size: medium;
   }
 }
 
