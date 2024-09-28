@@ -205,16 +205,17 @@ body {
 }
 
 #buy-now-button {
-  padding: 10px 20px;
-  background-color: #004869;
+  padding: 10px 15px;
+  background-color: #1f06ff;
   color: white;
   border: none;
   cursor: pointer;
   margin-top: 20px;
+  border-radius: 50%;
 }
 
 #buy-now-button:hover {
-  background-color: #002e3d;
+  background-color: #03002c;
 }
 
 #total-price {
@@ -628,18 +629,28 @@ footer {
     font-size: small;
   }
   .banner img {
-    width: 70%;
+    width: 100%;
   }
+
   .product-card.expanded {
-    left: 5rem;
-    top: 20%;
-  }
-  .product-details {
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    width: 20rem;
+    max-height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
   }
 
   .product-card.expanded .product-details {
-    left: 0px;
+    position: relative;
+    height: auto;
+    box-sizing: border-box;
+    top: 100%;
+    left: -17px;
+    gap: 10rem;
+    margin: 1rem;
   }
 }
 /*Responsive Code for Medium phones*/
