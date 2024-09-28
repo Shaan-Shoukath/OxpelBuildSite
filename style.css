@@ -643,12 +643,32 @@ footer {
   }
 }
 /*Responsive Code for Medium phones*/
-@media (min-width: 376px) and(max-width:414px) {
+@media (min-width: 376px) and (max-width:414px) {
 }
 
 /*Responsive Code for Larger phones*/
 
-@media (min-width: 415px) and(max-width:600px) {
+@media (min-width: 415px) and (max-width:600px) {
 }
 
 /**/
+
+@media (min-width: 1000px) and (max-width:3000px) {
+  .wrapper{
+    height: 46rem;
+  }
+
+  .container{
+    height: 100vh;
+  }
+
+  .slogan{
+    padding-bottom:3rem;
+    font-size: larger;
+  }
+  .banner img{
+    width: 70%;
+    height: auto;
+  }
+
+}
