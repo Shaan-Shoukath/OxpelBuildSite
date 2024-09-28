@@ -460,7 +460,7 @@ button {
 /*Hide product details*/
 .product-details {
   display: none;
-  text-align: left;
+  text-align: centre;
   align-items: center;
   width: 18rem;
   padding: 20px;
@@ -593,6 +593,66 @@ footer {
 
 /*Responsive for smaller phones*/
 @media (max-width: 375px) {
+  .container {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    height: 100vh;
+  }
+  .search-bar input.visible {
+    width: 135px;
+  }
+
+  .product-suggestions {
+    right: 30px;
+  }
+
+  .logo img {
+    width: 80%;
+  }
+
+  .slogan h1 {
+    font-size: x-large;
+  }
+
+  .product-grid {
+    gap: 1rem;
+  }
+  .product-card {
+    width: 40vw;
+  }
+  .product-card h3 {
+    font-size: small;
+  }
+  .product-card img {
+    width: 50%;
+  }
+  .banner img {
+    width: 100%;
+  }
+
+  .product-card.expanded {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    width: 20rem;
+    max-height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .product-card.expanded .product-details {
+    position: relative;
+    height: auto;
+    box-sizing: border-box;
+    top: 100%;
+    left: -17px;
+    gap: 10rem;
+    margin: 1rem;
+    background-color: rgb(161, 175, 255);
+  }
 }
 
 /*Responsive Code for Medium phones*/
