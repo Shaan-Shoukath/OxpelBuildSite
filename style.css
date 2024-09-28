@@ -637,9 +637,9 @@ footer {
   .product-details {
     top: 50%;
   }
+
   .product-card.expanded .product-details {
-    left: 5px;
-    right: 10rem;
+    left: 0px;
   }
 }
 /*Responsive Code for Medium phones*/
