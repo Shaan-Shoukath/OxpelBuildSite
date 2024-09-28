@@ -660,7 +660,7 @@ footer {
 /*Responsive Code for Larger phones*/
 
 @media (min-width: 415px) and(max-width:600px) {
-  /**/
+  }  /**/
   @media (min-width: 1000px) and (max-width: 4000px) {
     .wrapper {
       height: 46rem;
@@ -691,4 +691,4 @@ footer {
       transform: translate(-0%, -10%);
     }
   }
-}
+
