@@ -679,9 +679,9 @@ footer {
   }
 
   .product-details{
-    top: 45%;
-    right: 40%;
-    transform: translate(-0% , -12%);
+    top: 50%;
+    right: 50%;
+    transform: translate(-0% , -10%);
   }  
 
 }
