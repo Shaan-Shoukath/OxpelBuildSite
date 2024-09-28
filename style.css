@@ -609,6 +609,24 @@ footer {
     right: 30px;
   }
 
+  .cart-section {
+    left: 1px;
+    width: calc(100%-2px);
+    max-width: 23rem;
+  }
+  .cart-section h3 {
+    font-size: x-large;
+  }
+  .cart-section h4 {
+    font-size: medium;
+  }
+  .cart-section p {
+    font-size: large;
+  }
+  #total-price {
+    font-size: small;
+  }
+
   .logo {
     padding-top: 80px;
   }
@@ -653,6 +671,10 @@ footer {
     overflow-y: hidden;
     overflow-x: hidden;
   }
+  .product-card.expanded h3,
+  p {
+    font-size: large;
+  }
   .product-card.expanded img {
     width: 30%;
   }
@@ -688,7 +710,7 @@ footer {
   .cart-section {
     left: 1px;
     width: calc(100%-2px);
-    max-width: 24rem;
+    max-width: 23rem;
   }
   .cart-section h3 {
     font-size: x-large;
@@ -699,7 +721,7 @@ footer {
   .cart-section p {
     font-size: large;
   }
-  #total-price h4 {
+  #total-price {
     font-size: small;
   }
 
@@ -739,6 +761,10 @@ footer {
     max-height: 100vh;
     overflow-y: hidden;
     overflow-x: hidden;
+  }
+  .product-card.expanded h3,
+  p {
+    font-size: large;
   }
 
   .product-card.expanded .product-details {
@@ -771,6 +797,24 @@ footer {
     right: 30px;
   }
 
+  .cart-section {
+    left: 1px;
+    width: calc(100%-2px);
+    max-width: 25rem;
+  }
+  .cart-section h3 {
+    font-size: x-large;
+  }
+  .cart-section h4 {
+    font-size: medium;
+  }
+  .cart-section p {
+    font-size: large;
+  }
+  #total-price {
+    font-size: small;
+  }
+
   .logo img {
     width: 80%;
   }
@@ -807,6 +851,10 @@ footer {
     max-height: 100vh;
     overflow-y: hidden;
     overflow-x: hidden;
+  }
+  .product-card.expanded h3,
+  p {
+    font-size: large;
   }
 
   .product-card.expanded .product-details {
