@@ -205,16 +205,17 @@ body {
 }
 
 #buy-now-button {
-  padding: 10px 20px;
-  background-color: #004869;
+  padding: 10px 15px;
+  background-color: #1f06ff;
   color: white;
   border: none;
   cursor: pointer;
   margin-top: 20px;
+  border-radius: 50%;
 }
 
 #buy-now-button:hover {
-  background-color: #002e3d;
+  background-color: #03002c;
 }
 
 #total-price {
@@ -490,7 +491,7 @@ button {
   top: 0;
   right: 0px;
   left: 15rem;
-  height: auto;
+  height: 20rem;
   padding: 2rem;
   box-sizing: border-box;
   z-index: 999;
@@ -509,7 +510,6 @@ button {
   display: flex;
   justify-content: center;
   opacity: 1;
-  align-items: center;
 }
 
 .body.expanded {
@@ -629,59 +629,36 @@ footer {
     font-size: small;
   }
   .banner img {
-    width: 70%;
+    width: 100%;
   }
+
   .product-card.expanded {
-    left: 5rem;
-    top: 20%;
-  }
-  .product-details {
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    width: 20rem;
+    max-height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
   }
+
   .product-card.expanded .product-details {
-    left: 5px;
-    right: 10rem;
+    position: relative;
+    height: auto;
+    box-sizing: border-box;
+    top: 100%;
+    left: -17px;
+    gap: 10rem;
+    margin: 1rem;
   }
 }
 /*Responsive Code for Medium phones*/
-@media (min-width: 376px) and (max-width:414px) {
+@media (min-width: 376px) and(max-width:414px) {
 }
 
 /*Responsive Code for Larger phones*/
 
-@media (min-width: 415px) and (max-width:600px) {
+@media (min-width: 415px) and(max-width:600px) {
 }
-
 /**/
-
-@media (min-width: 1000px) and (max-width:4000px) {
-  .wrapper{
-    height: 46rem;
-  }
-
-  .container{
-    height: 100vh;
-  }
-
-  .slogan{
-    padding-bottom:3rem;
-    font-size: larger;
-  }
-  .banner img{
-    height: auto;
-    width: 680px;
-  }
-
-  .product-card.expanded{
-    top: 50%;
-    left: 40%;
-    transform: translate(-50% , -50%);
-  }
-
-  .product-details{
-    top: 50%;
-    right: 50%;
-    transform: translate(-0% , -10%);
-  }  
-
-}
