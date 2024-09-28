@@ -509,6 +509,7 @@ button {
   display: flex;
   justify-content: center;
   opacity: 1;
+  align-items: center;
 }
 
 .body.expanded {
@@ -653,7 +654,7 @@ footer {
 
 /**/
 
-@media (min-width: 1000px) and (max-width:3000px) {
+@media (min-width: 1000px) and (max-width:4000px) {
   .wrapper{
     height: 46rem;
   }
@@ -667,8 +668,8 @@ footer {
     font-size: larger;
   }
   .banner img{
-    width: 70%;
     height: auto;
+    width: 680px;
   }
 
 
