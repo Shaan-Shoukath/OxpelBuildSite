@@ -231,17 +231,17 @@ body {
   background-color: transparent;
 }
 
-.remove-from-cart i{
-margin-top: 6px;
-color: #000000;
-font-size: medium;
+.remove-from-cart i {
+  margin-top: 6px;
+  color: #000000;
+  font-size: medium;
 }
 
 .remove-from-cart:hover {
-  background-color: #bc1010;/* Background color on hover */
+  background-color: #bc1010; /* Background color on hover */
 }
 
-.remove-from-cart:hover i{
+.remove-from-cart:hover i {
   color: white;
 }
 
@@ -460,6 +460,7 @@ button {
 .product-details {
   display: none;
   text-align: left;
+  align-items: center;
   width: 18rem;
   padding: 20px;
   border-radius: 10px;
@@ -475,6 +476,12 @@ button {
   transform: translateY(-50%);
   z-index: 1000;
   width: 13rem;
+}
+
+.add-to-cart {
+  background-color: transparent;
+  color: black;
+  font-size: medium;
 }
 
 .product-card.expanded .product-details {
@@ -496,6 +503,12 @@ button {
 .blurred {
   filter: blur(5px);
   transition: filter 0.3s ease;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
 }
 
 .body.expanded {
@@ -580,13 +593,62 @@ footer {
 
 @media (max-width: 768px) {
 }
+/*Responsive for smaller phones*/
+@media (min-width: 375px) and (max-width: 414px) {
+  .container {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    height: 80vh;
+  }
+  .search-bar input.visible {
+    width: 135px;
+  }
 
-/*Responsive Code for Medium Devices*/
+  .product-suggestions {
+    right: 30px;
+  }
 
-@media (min-width: 769px) and(max-width:1024px) {
+  .logo img {
+    width: 80%;
+  }
+
+  .slogan h1 {
+    font-size: x-large;
+  }
+
+  .product-grid {
+    gap: 1rem;
+  }
+  .product-card {
+    width: 40vw;
+  }
+  .product-card h3 {
+    font-size: small;
+  }
+  .banner img {
+    width: 70%;
+  }
+  .product-card.expanded {
+    left: 5rem;
+    top: 20%;
+  }
+  .product-details {
+    top: 50%;
+  }
+  .product-card.expanded .product-details {
+    left: 5px;
+    right: 10rem;
+  }
+}
+/*Responsive Code for Medium phones*/
+@media (min-width: 376px) and(max-width:414px) {
 }
 
-/*Responsive Code for Larger Devices*/
+/*Responsive Code for Larger phones*/
 
-@media (min-width: 1025px) {
+@media (min-width: 415px) and(max-width:600px) {
 }
+
+/**/
