@@ -623,6 +623,9 @@ footer {
   .cart-section p {
     font-size: large;
   }
+  .cart-section img {
+    width: 10%;
+  }
   #total-price {
     font-size: small;
   }
@@ -721,6 +724,9 @@ footer {
   .cart-section p {
     font-size: large;
   }
+  .cart-section img {
+    width: 10%;
+  }
   #total-price {
     font-size: small;
   }
@@ -810,6 +816,9 @@ footer {
   }
   .cart-section p {
     font-size: large;
+  }
+  .cart-section img {
+    width: 10%;
   }
   #total-price {
     font-size: small;
