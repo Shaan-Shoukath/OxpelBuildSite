@@ -12,10 +12,15 @@ document.addEventListener("DOMContentLoaded", () => {
   const totalPriceElement = document.getElementById("total-price");
   const buyNowButton = document.getElementById("buy-now-button");
   const products = [
-    "OXPEL PURE (UV + UF)",
-    "OXPEL ADVANCE (RO + UV)",
-    "OXPEL SMART (RO + UF)",
-    "OXPEL ULTRA (RO + UV + UF)",
+    "OXPEL (UV + UF)",
+    "OXPEL (RO + UV + ALKALINE)",
+    "OXPEL (RO + UF)",
+    "OXPEL (RO + UV + UF)",
+    "OXPEL (RO + COPPER)",
+    "OXPEL (25 LPH)",
+    "OXPEL (RO)",
+    "COMMERCIAL RO PLANT",
+    "COMMERCIAL PLANT",
   ];
 
   // Scroll to Top Button Functionality
