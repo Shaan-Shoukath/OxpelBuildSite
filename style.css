@@ -599,6 +599,8 @@ footer {
 }
 footer h6 {
   display: none;
+  opacity: 0;
+  visibility: hidden;
 }
 
 /*Responsive for smaller phones*/
