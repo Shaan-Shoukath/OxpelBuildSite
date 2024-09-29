@@ -12,7 +12,7 @@ body {
 
 /* Full-screen containers with background images */
 .container {
-  height: 110vh; /* Full viewport height */
+  height: 100vh; /* Full viewport height */
   width: auto; /* Full viewport width */
   background-size: cover; /* Ensure background covers full area */
   background-position: center; /* Center the background image */
@@ -900,7 +900,7 @@ footer h6 {
 }
 
 /*Responsive for 1920 displays*/
-@media (min-width: 1000px) and (max-width: 4000px) {
+@media (min-width: 1440px) and (max-width: 4000px) {
   .wrapper {
     height: 46rem;
   }
