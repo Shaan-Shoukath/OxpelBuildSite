@@ -485,7 +485,6 @@ button {
   height: 40px;
   padding: 7px 5px;
   background-color: rgb(26, 57, 194);
-  box-shadow: 1px #ff0000;
   color: #ffffff;
   border-radius: 50%;
   font-size: large;
@@ -597,6 +596,9 @@ footer {
   color: #ffffff;
   background-color: #041c86;
   padding: 2rem;
+}
+footer h6 {
+  display: none;
 }
 
 /*Responsive for smaller phones*/
