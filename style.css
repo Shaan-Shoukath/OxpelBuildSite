@@ -603,6 +603,11 @@ footer h6 {
   visibility: hidden;
 }
 
+.FooterIcon{
+  color: white;
+  margin-right: 30px;
+}
+
 /*Responsive for smaller phones*/
 @media (max-width: 375px) {
   .container {
@@ -929,15 +934,4 @@ footer h6 {
     right: 50%;
     transform: translate(-0%, -10%);
   }
-}
-
-.FooterGmail {
-  color: white;
-  align-items: center;
-  margin-right: 10px;
-}
-
-.FooterCall{
-  color: white;
-  margin-right: 20px;
 }
