@@ -499,7 +499,7 @@ button {
   top: 0;
   right: 0px;
   left: 15rem;
-  height: 20rem;
+  height: auto;
   padding: 2rem;
   box-sizing: border-box;
   z-index: 999;
