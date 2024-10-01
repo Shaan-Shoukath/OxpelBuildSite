@@ -930,3 +930,14 @@ footer h6 {
     transform: translate(-0%, -10%);
   }
 }
+
+.FooterGmail {
+  color: white;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.FooterCall{
+  color: white;
+  margin-right: 20px;
+}
