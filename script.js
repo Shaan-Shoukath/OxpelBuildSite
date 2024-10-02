@@ -150,7 +150,6 @@ document.addEventListener("DOMContentLoaded", () => {
       };
       cart.push(product);
       updateCart();
-      alert(`${product.title} added to cart!`);
     });
   });
 
@@ -159,7 +158,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const product = cart[index];
     cart.splice(index, 1);
     updateCart();
-    alert(`${product.title} removed from cart!`);
   }
 
   // Function to update the cart

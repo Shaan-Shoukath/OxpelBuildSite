@@ -589,23 +589,34 @@ button {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-footer {
+.about {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-bottom: 35px;
+}
+
+.about i {
+  font-size: x-large;
+  color: white;
+}
+
+footer {
   text-align: centre;
   color: #ffffff;
   background-color: #041c86;
   padding: 2rem;
 }
+footer p {
+  display: flex;
+  justify-content: center;
+}
+
 footer h6 {
   display: none;
   opacity: 0;
   visibility: hidden;
-}
-
-.FooterIcon{
-  color: white;
-  margin-right: 30px;
 }
 
 /*Responsive for smaller phones*/
