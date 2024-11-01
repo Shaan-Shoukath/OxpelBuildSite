@@ -319,7 +319,7 @@ li {
 }
 
 .wave.wave1 {
-  background-image: url(wave1.png);
+  background-image: url(wave2.svg);
   animation: animate 30s linear infinite;
   z-index: 4;
   opacity: 0.9;
@@ -328,7 +328,7 @@ li {
 }
 
 .wave.wave2 {
-  background-image: url(wave2.png);
+  background-image: url(wave4.svg);
   animation: animate2 15s linear infinite;
   z-index: 3;
   opacity: 1;
@@ -337,7 +337,7 @@ li {
 }
 
 .wave.wave3 {
-  background-image: url(wave3.png);
+  background-image: url(wave1.svg);
   animation: animate 30s linear infinite;
   z-index: 2;
   opacity: 1;
@@ -346,7 +346,7 @@ li {
 }
 
 .wave.wave4 {
-  background-image: url(wave4.png);
+  background-image: url(wave3.svg);
   animation: animate 5s linear infinite;
   z-index: 1;
   opacity: 1;
