@@ -946,3 +946,10 @@ footer h6 {
     transform: translate(-0%, -10%);
   }
 }
+
+@media(min-width: 1366px) and (max-height: 768px) {
+  .banner img {
+    height: auto;
+    width: 680px;
+  }
+}
